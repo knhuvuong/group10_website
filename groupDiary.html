@@ -1,33 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    <title>Space Dynamic - SEO HTML5 Template</title>
+  <title>Space Dynamic - SEO HTML5 Template</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-<!--
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <!--
     
 TemplateMo 562 Space Dynamic
 
 https://templatemo.com/tm-562-space-dynamic
 
 -->
-  </head>
+  <style>
+    :root {
+      --primary: #6222CC;
+      --secondary: #FBA504;
+      --light: #8d67c6;
+      --dark: #04000B;
+    }
+
+    h1,
+    h2,
+    .fw-bold {
+      font-weight: 700 !important;
+    }
+
+    /*** Section Title ***/
+    .section-title {
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .section-title span:first-child,
+    .section-title span:last-child {
+      position: relative;
+      display: inline-block;
+      margin-right: 30px;
+      width: 30px;
+      height: 2px;
+    }
+
+    .section-title span:last-child {
+      margin-right: 0;
+      margin-left: 30px;
+    }
+
+    .section-title span:first-child::after,
+    .section-title span:last-child::after {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 2px;
+      top: 0;
+      right: -20px;
+    }
+
+    .section-title span:last-child::after {
+      right: auto;
+      left: -20px;
+    }
+
+    .section-title.text-primary span:first-child,
+    .section-title.text-primary span:last-child,
+    .section-title.text-primary span:first-child::after,
+    .section-title.text-primary span:last-child::after {
+      background: var(--primary);
+    }
+
+    .section-title.text-secondary span:first-child,
+    .section-title.text-secondary span:last-child,
+    .section-title.text-secondary span:first-child::after,
+    .section-title.text-secondary span:last-child::after {
+      background: var(--secondary);
+    }
+
+    .section-title.text-white span:first-child,
+    .section-title.text-white span:last-child,
+    .section-title.text-white span:first-child::after,
+    .section-title.text-white span:last-child::after {
+      background: #ffffff;
+    }
+  </style>
+</head>
 
 <body>
 
@@ -52,7 +126,7 @@ https://templatemo.com/tm-562-space-dynamic
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <h4>Spac<span>Dyna</span></h4>
+              <h4>GROUP_<span>10</span></h4>
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -60,10 +134,12 @@ https://templatemo.com/tm-562-space-dynamic
               <li class="scroll-to-section"><a href="index.html">Home</a></li>
               <li class="scroll-to-section"><a href="about.html">About</a></li>
               <li class="scroll-to-section"><a href="groupDiary.html" class="active">Group Diary</a></li>
-              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Contact Now</a></div></li> 
-            </ul>        
+              <li class="scroll-to-section">
+                <div class="main-red-button"><a href="#contact">Contact Now</a></div>
+              </li>
+            </ul>
             <a class='menu-trigger'>
-                <span>Menu</span>
+              <span>Menu</span>
             </a>
             <!-- ***** Menu End ***** -->
           </nav>
@@ -75,43 +151,95 @@ https://templatemo.com/tm-562-space-dynamic
 
   <div id="services" class="our-services section">
     <div class="container">
+      <div class="wow fadeInUp" data-wow-delay="0.1s">
+        <!-- <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p> -->
+        <h1 class="text-center mb-5">Group Diary</h1>
+      </div>
       <div class="row">
-        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="left-image">
-            <img src="assets/images/services-left-image.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="section-heading">
-            <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas</h2>
-            <p>Space Dynamic HTML5 template is free to use for your website projects. However, you are not permitted to redistribute the template ZIP file on any CSS template collection websites. Please contact us for more information. Thank you for your kind cooperation.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="first-bar progress-skill-bar">
-                <h4>Website Analysis</h4>
-                <span>84%</span>
-                <div class="filled-bar"></div>
-                <div class="full-bar"></div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="second-bar progress-skill-bar">
-                <h4>SEO Reports</h4>
-                <span>88%</span>
-                <div class="filled-bar"></div>
-                <div class="full-bar"></div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="third-bar progress-skill-bar">
-                <h4>Page Optimizations</h4>
-                <span>94%</span>
-                <div class="filled-bar"></div>
-                <div class="full-bar"></div>
-              </div>
-            </div>
-          </div>
+        <div class="table-wrapper">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Công Việc</th>
+                <th>Người thực hiện</th>
+                <th>Ngày bắt đầu</th>
+                <th>Ngày kết thúc</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Tìm template website nhóm</td>
+                <td>Vương Khánh Như</td>
+                <td>18/11/2023</td>
+                <td>19/11/2023</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Chỉnh sửa trang group diary</td>
+                <td>Vương Khánh Như</td>
+                <td>25/11/2023</td>
+                <td>29/11/2023</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Tìm template website nhóm</td>
+                <td>Từ Gia Mẩn</td>
+                <td>18/11/2023</td>
+                <td>19/11/2023</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Chỉnh sửa trang home</td>
+                <td>Từ Gia Mẩn</td>
+                <td>25/11/2023</td>
+                <td>28/11/2023</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Tìm template website nhóm</td>
+                <td>Võ Ngọc Linh</td>
+                <td>18/11/2023</td>
+                <td>19/11/2023</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Chỉnh sửa trang home</td>
+                <td>Võ Ngọc Linh</td>
+                <td>25/11/2023</td>
+                <td>28/11/2023</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Tìm template website nhóm</td>
+                <td>Lý Tuấn Dũng</td>
+                <td>18/11/2023</td>
+                <td>19/11/2023</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Chỉnh sửa trang about</td>
+                <td>Lý Tuấn Dũng</td>
+                <td>25/11/2023</td>
+                <td>28/11/2023</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Tìm template website nhóm</td>
+                <td>Nguyễn Bùi Hoàng Vũ</td>
+                <td>18/11/2023</td>
+                <td>19/11/2023</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Chỉnh sửa trang about</td>
+                <td>Nguyễn Bùi Hoàng Vũ</td>
+                <td>25/11/2023</td>
+                <td>28/11/2023</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -122,9 +250,9 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="container">
       <div class="row">
         <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p>© Copyright 2021 Space Dynamic Co. All Rights Reserved. 
-          
-          <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+          <p>© Copyright 2021 Space Dynamic Co. All Rights Reserved.
+            <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a>
+          </p>
         </div>
       </div>
     </div>
@@ -138,4 +266,5 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/templatemo-custom.js"></script>
 
 </body>
+
 </html>
