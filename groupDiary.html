@@ -15,6 +15,13 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css" rel="stylesheet" />
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -156,91 +163,129 @@ https://templatemo.com/tm-562-space-dynamic
         <h1 class="text-center mb-5">Group Diary</h1>
       </div>
       <div class="row">
-        <div class="table-wrapper">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th>STT</th>
-                <th>Công Việc</th>
-                <th>Người thực hiện</th>
-                <th>Ngày bắt đầu</th>
-                <th>Ngày kết thúc</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Tìm template website nhóm</td>
-                <td>Vương Khánh Như</td>
-                <td>18/11/2023</td>
-                <td>19/11/2023</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Chỉnh sửa trang group diary</td>
-                <td>Vương Khánh Như</td>
-                <td>25/11/2023</td>
-                <td>29/11/2023</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Tìm template website nhóm</td>
-                <td>Từ Gia Mẩn</td>
-                <td>18/11/2023</td>
-                <td>19/11/2023</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Chỉnh sửa trang home</td>
-                <td>Từ Gia Mẩn</td>
-                <td>25/11/2023</td>
-                <td>28/11/2023</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Tìm template website nhóm</td>
-                <td>Võ Ngọc Linh</td>
-                <td>18/11/2023</td>
-                <td>19/11/2023</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Chỉnh sửa trang home</td>
-                <td>Võ Ngọc Linh</td>
-                <td>25/11/2023</td>
-                <td>28/11/2023</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Tìm template website nhóm</td>
-                <td>Lý Tuấn Dũng</td>
-                <td>18/11/2023</td>
-                <td>19/11/2023</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>Chỉnh sửa trang about</td>
-                <td>Lý Tuấn Dũng</td>
-                <td>25/11/2023</td>
-                <td>28/11/2023</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>Tìm template website nhóm</td>
-                <td>Nguyễn Bùi Hoàng Vũ</td>
-                <td>18/11/2023</td>
-                <td>19/11/2023</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>Chỉnh sửa trang about</td>
-                <td>Nguyễn Bùi Hoàng Vũ</td>
-                <td>25/11/2023</td>
-                <td>28/11/2023</td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- Tabs navs -->
+        <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a data-mdb-tab-init class="nav-link active" id="ex1-tab-1" href="#ex1-tabs-1" role="tab"
+              aria-controls="ex1-tabs-1" aria-selected="true">Week4</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a data-mdb-tab-init class="nav-link" id="ex1-tab-2" href="#ex1-tabs-2" role="tab"
+              aria-controls="ex1-tabs-2" aria-selected="false">Week 5</a>
+          </li>
+        </ul>
+        <!-- Tabs navs -->
+        <!-- Tabs content -->
+        <div class="tab-content" id="ex1-content">
+          <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+            <div class="table-wrapper">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>Công Việc</th>
+                    <th>Người thực hiện</th>
+                    <th>Ngày bắt đầu</th>
+                    <th>Ngày kết thúc</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Tìm template website nhóm</td>
+                    <td>Vương Khánh Như</td>
+                    <td>18/11/2023</td>
+                    <td>19/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Tìm template website nhóm</td>
+                    <td>Từ Gia Mẩn</td>
+                    <td>18/11/2023</td>
+                    <td>19/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Tìm template website nhóm</td>
+                    <td>Võ Ngọc Linh</td>
+                    <td>18/11/2023</td>
+                    <td>19/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Tìm template website nhóm</td>
+                    <td>Lý Tuấn Dũng</td>
+                    <td>18/11/2023</td>
+                    <td>19/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Tìm template website nhóm</td>
+                    <td>Nguyễn Bùi Hoàng Vũ</td>
+                    <td>18/11/2023</td>
+                    <td>19/11/2023</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+            <div class="table-wrapper">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>Công Việc</th>
+                    <th>Người thực hiện</th>
+                    <th>Ngày bắt đầu</th>
+                    <th>Ngày kết thúc</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Chỉnh sửa trang group diary</td>
+                    <td>Vương Khánh Như</td>
+                    <td>25/11/2023</td>
+                    <td>29/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Chỉnh sửa trang home</td>
+                    <td>Từ Gia Mẩn</td>
+                    <td>25/11/2023</td>
+                    <td>28/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Chỉnh sửa trang home</td>
+                    <td>Võ Ngọc Linh</td>
+                    <td>25/11/2023</td>
+                    <td>28/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Chỉnh sửa trang about</td>
+                    <td>Lý Tuấn Dũng</td>
+                    <td>25/11/2023</td>
+                    <td>28/11/2023</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Chỉnh sửa trang about</td>
+                    <td>Nguyễn Bùi Hoàng Vũ</td>
+                    <td>25/11/2023</td>
+                    <td>28/11/2023</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>  </div>
+  <!-- <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+    Tab 3 content
+  </div> -->
         </div>
+        <!-- Tabs content -->
+
       </div>
     </div>
   </div>
@@ -264,6 +309,9 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.umd.min.js"></script>
+
 
 </body>
 
